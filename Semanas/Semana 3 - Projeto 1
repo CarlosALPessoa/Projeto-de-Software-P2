@@ -1,0 +1,26 @@
+package principal.codigo;
+import principal.codigo.usuario;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+public class principal {
+    public static void main(String[] args){
+
+        int a;
+
+		while(true) {
+            System.out.println("Menu:");
+            System.out.println("1: Aluno;\n2: Professor\n3: Pesquisador\n4:Técnico\n5:Profissional Desenvolvedor\n6:Profissional Analista\n7:Gerenciamento de Projeto\n");
+            Scanner sc = new Scanner(System.in);
+                a = sc.nextInt();
+                
+            
+
+            if(a == 1){
+                System.out.println("Entrou!");
+                
+            }
+            sc.close();
+            
+	}
+}}
